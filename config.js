@@ -1,28 +1,28 @@
 window.config = {
   "property": {
-    "streetAddress": "114 Smith Road ",
-    "city": "Kemptville",
-    "cityStateZip": "Kemptville, Ontario  K0G 1T0",
-    "heroSubtitle": "Prepare to be transformed by this stunning Detached that represents the pinnacle of residential design. With 4 carefully curated bedrooms, 4 luxurious bathrooms, and an expansive 2200 sq ft floor plan, this home is more than just a living space – it's a lifestyle statement. Every inch has been thoughtfully crafted to provide an exceptional living experience that balances aesthetic appeal with practical functionality, creating a harmonious environment that adapts to your most discerning needs.",
-    "backgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1763578619337-24-web-or-mls-20.jpg"
+    "streetAddress": "10 Oakview Place",
+    "city": "UXBRIDGE",
+    "cityStateZip": "UXBRIDGE, ON L9P 0L1",
+    "heroSubtitle": "Immerse yourself in the ultimate urban sanctuary – a breathtaking 5-bedroom Detached that redefines contemporary living. Boasting 5 beautifully appointed bathrooms and a generous 5080 sq ft of intelligently designed space, this home is a testament to modern architectural excellence. From the moment you step inside, you'll be captivated by the seamless flow, abundant natural light, and premium finishes that create an atmosphere of refined elegance and unparalleled comfort.",
+    "backgroundImageUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/colin-noble/marketing-requests/open-house/1779906637055-1779468350064-10-web-or-mls-DSC02836.jpg"
   },
   "realtor": {
-    "fullName": "Nicole Garrett",
+    "fullName": "Colin Noble",
     "title": "REALTOR®",
-    "email": "nicole@driscollpeca.com",
-    "phone": "613-258-2222",
-    "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-1487654.jpg",
-    "bio": "With years of real estate service under our belt, we can assure you that you are in good hands with our team. We are committed to listening to our clients, focusing on their needs and using keen negotiating skills to ensure a successful transaction for both buyers and sellers. With deep local knowledge and a true passion for real estate, we're committed to helping you find the perfect place to call home. Let's make your next move an exciting and rewarding one — we can't wait to work with you!",
+    "phone": "6479677116",
+    "email": "colin@noblerealestate.ca",
+    "photoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-0.jpg",
+    "bio": "Professional real estate agent dedicated to helping you find your perfect home.",
     "social": {
-      "facebook": "https://www.facebook.com/driscollpecateam",
-      "instagram": "https://www.instagram.com/driscollpecateam",
-      "website": "https://www.driscollpeca.com"
+      "facebook": "https://www.facebook.com/colinnoblerealestate",
+      "instagram": "https://www.instagram.com/_noblerealestate",
+      "website": "#"
     }
   },
   "brokerage": {
-    "name": "REAL Broker LTD",
-    "logoUrl": "https://yl-clients-prod.s3.amazonaws.com/1c2ff89a-b0f6-4582-ac27-3e2203d89e67117213106_brokeredby_logo_ontario.png",
-    "address": "218 Brant Avenue Brantford ON N3T 3H9"
+    "name": "REAL Broker Ontario Ltd.",
+    "logoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1769722493209-PrimaryLogoKO.png",
+    "address": "130 KING ST W Unit 1900, Toronto, ON, M5X1E3"
   },
   "openHouse": {
     "eventDate": "",
@@ -30,89 +30,92 @@ window.config = {
             {
                   "icon": "fas fa-home",
                   "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29099863/114-smith-road-north-grenville-803-north-grenville-twp-kemptville-south"
+                  "url": "https://www.realtor.ca/real-estate/29783401/10-oakview-place-uxbridge-rural-uxbridge"
             },
             {
-                  "icon": "fas fa-vr-cardboard",
-                  "text": "3D Virtual Tour",
-                  "url": "https://youtube.com/shorts/uwuZc_yULGI"
+                  "icon": "fas fa-ruler-combined",
+                  "text": "Architectural Floor Plan",
+                  "url": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/colin-noble/marketing-requests/open-house/1779906384502-Floorplans - 10 Oakview Pl.pdf"
             },
             {
                   "icon": "fas fa-video",
                   "text": "Video Tour",
-                  "url": "https://youtube.com/shorts/uwuZc_yULGI"
+                  "url": "https://www.dropbox.com/scl/fo/jkmblkth3hr71d4m53o5j/ABM78OCGC9nzhnTSFUU0yRw?rlkey=xv3i5ri48bctj9dof8zzbc4vv&e=2&st=h1qfwplm&dl=0"
             },
             {
                   "icon": "fas fa-file-pdf",
-                  "text": "Feature Website ",
-                  "url": "https://sites.ground2airmedia.com/sites/xabmljb/unbranded"
+                  "text": "Feature and Upgrades",
+                  "url": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/colin-noble/marketing-requests/open-house/1779906405356-Features & Upgrades - 10 Oakview Pl.pdf"
             }
       ]
   },
   "meta": {
-    "pageTitlePrefix": "🏡 Nicole Garrett Open House",
+    "pageTitlePrefix": "🏡 Colin Noble Open House",
     "navBrandLogoText": "OPEN HOUSE",
-    "privacyPolicyLink": "https://driscollpeca.com/privacy.html"
+    "privacyPolicyLink": "https://noblerealestate.ca/"
   },
   "settings": {
-    "primaryColor": "#00224a",
-    "secondaryColor": "#05C3F9",
-    "accentColor": "#05C3F9",
+   "primaryColor": "",
+    "secondaryColor": "",
+    "accentColor": "",
     "neutralColor": "",
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
     "confettiColors": [
-      "#A78BFA",
-      "#C4B5FD",
-      "#E9D5FF",
-      "#8B5CF6",
-      "#7C3AED"
+      "#6187a7",
+      "#f0e9d6",
+      "#ffffff",
+      "#83a363",
+      "#d9ac68"
     ]
   },
   "modalQuestions": [
-    {
-      "id": "agent_status",
-      "questionText": "Are you currently exploring homes with a real estate agent?",
-      "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
-      ]
-    },
-    {
-      "id": "interest_level",
-      "questionText": "How interested are you in this Detached?",
-      "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
-      ]
-    },
-    {
-      "id": "neighborhood_engagement",
-      "questionText": "How do you usually enjoy the neighborhood?",
-      "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
-      ]
-    },
-    {
-      "id": "feature_attraction",
-      "questionText": "What feature attracted you to this home?",
-      "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
-      ]
-    }
-  ],
+  {
+    "id": "q_auto_1750445840887_0",
+    "questionText": "What's your current situation?",
+    "options": [
+      { "value": "I own my home", "text": "I own my home" },
+      { "value": "I rent", "text": "I rent" },
+      { "value": "Live with family/friends", "text": "Live with family/friends" },
+      { "value": "Between homes", "text": "Between homes" }
+    ]
+  },
+  {
+    "id": "q_auto_1750445840887_1",
+    "questionText": "What are you looking to do?",
+    "options": [
+      { "value": "Buy a home", "text": "Buy a home" },
+      { "value": "Sell and buy", "text": "Sell and buy" },
+      { "value": "Rent a place", "text": "Rent a place" },
+      { "value": "Invest in property", "text": "Invest in property" }
+    ]
+  },
+  {
+    "id": "q_auto_1750445840887_2",
+    "questionText": "When are you planning to move?",
+    "options": [
+      { "value": "ASAP", "text": "ASAP" },
+      { "value": "3-6 months", "text": "3-6 months" },
+      { "value": "6-12 months", "text": "6-12 months" },
+      { "value": "12+ months", "text": "12+ months" }
+    ]
+  },
+  {
+    "id": "agent_status",
+    "questionText": "Are you currently exploring homes with a real estate agent?",
+    "options": [
+      { "value": "committed", "text": "Yes, I'm committed to an agent." },
+      { "value": "not_committed", "text": "No, I'm not committed to an agent." },
+      { "value": "gathering_info", "text": "Just gathering information at this stage." }
+    ]
+  }
+],
   "deploymentInfo": {
-    "repoId": "1100037723",
-    "repoName": "Open-House-138",
-    "tag": "Open House 114 Smith Road ",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
+    "repoId": "1251600875",
+    "repoName": "Open-House-286",
     "crmLeadParsingEmail": "",
+    "tag": "Open House 10 Oakview Place",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
     "sgApiKey": ""
   }
 };
