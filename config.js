@@ -1,4 +1,4 @@
-window.config = {
+const config = {
   "property": {
     "streetAddress": "10 Oakview Place",
     "city": "UXBRIDGE",
@@ -16,38 +16,34 @@ window.config = {
     "social": {
       "facebook": "https://www.facebook.com/colinnoblerealestate",
       "instagram": "https://www.instagram.com/_noblerealestate",
-      "website": "#"
+      "website": "https://noblerealestate.ca/"
     }
   },
   "brokerage": {
     "name": "REAL Broker Ontario Ltd.",
-    "logoUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1769722493209-PrimaryLogoKO.png",
+    "logoUrl": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/TeamUploads/upload-NOBLE_SecondaryLogo_Solid_Noir.png",
     "address": "130 KING ST W Unit 1900, Toronto, ON, M5X1E3"
   },
   "openHouse": {
     "eventDate": "",
     "bundleItems": [
-            {
-                  "icon": "fas fa-home",
-                  "text": "Full Property Listing",
-                  "url": "https://www.realtor.ca/real-estate/29783401/10-oakview-place-uxbridge-rural-uxbridge"
-            },
-            {
-                  "icon": "fas fa-ruler-combined",
-                  "text": "Architectural Floor Plan",
-                  "url": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/colin-noble/marketing-requests/open-house/1779906384502-Floorplans - 10 Oakview Pl.pdf"
-            },
-            {
-                  "icon": "fas fa-video",
-                  "text": "Video Tour",
-                  "url": "https://www.dropbox.com/scl/fo/jkmblkth3hr71d4m53o5j/ABM78OCGC9nzhnTSFUU0yRw?rlkey=xv3i5ri48bctj9dof8zzbc4vv&e=2&st=h1qfwplm&dl=0"
-            },
-            {
-                  "icon": "fas fa-file-pdf",
-                  "text": "Feature and Upgrades",
-                  "url": "https://salesgeniusportal.s3.ca-central-1.amazonaws.com/colin-noble/marketing-requests/open-house/1779906405356-Features & Upgrades - 10 Oakview Pl.pdf"
-            }
-      ]
+      {
+        "icon": "fas fa-home",
+        "text": "Full Property Listing"
+      },
+      {
+        "icon": "fas fa-ruler-combined",
+        "text": "Architectural Floor Plan"
+      },
+      {
+        "icon": "fas fa-video",
+        "text": "Video Tour"
+      },
+      {
+        "icon": "fas fa-file-pdf",
+        "text": "Feature and Upgrades"
+      }
+    ]
   },
   "meta": {
     "pageTitlePrefix": "🏡 Colin Noble Open House",
@@ -55,7 +51,7 @@ window.config = {
     "privacyPolicyLink": "https://noblerealestate.ca/"
   },
   "settings": {
-   "primaryColor": "",
+    "primaryColor": "",
     "secondaryColor": "",
     "accentColor": "",
     "neutralColor": "",
@@ -70,46 +66,91 @@ window.config = {
     ]
   },
   "modalQuestions": [
-  {
-    "id": "q_auto_1750445840887_0",
-    "questionText": "What's your current situation?",
-    "options": [
-      { "value": "I own my home", "text": "I own my home" },
-      { "value": "I rent", "text": "I rent" },
-      { "value": "Live with family/friends", "text": "Live with family/friends" },
-      { "value": "Between homes", "text": "Between homes" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_1",
-    "questionText": "What are you looking to do?",
-    "options": [
-      { "value": "Buy a home", "text": "Buy a home" },
-      { "value": "Sell and buy", "text": "Sell and buy" },
-      { "value": "Rent a place", "text": "Rent a place" },
-      { "value": "Invest in property", "text": "Invest in property" }
-    ]
-  },
-  {
-    "id": "q_auto_1750445840887_2",
-    "questionText": "When are you planning to move?",
-    "options": [
-      { "value": "ASAP", "text": "ASAP" },
-      { "value": "3-6 months", "text": "3-6 months" },
-      { "value": "6-12 months", "text": "6-12 months" },
-      { "value": "12+ months", "text": "12+ months" }
-    ]
-  },
-  {
-    "id": "agent_status",
-    "questionText": "Are you currently exploring homes with a real estate agent?",
-    "options": [
-      { "value": "committed", "text": "Yes, I'm committed to an agent." },
-      { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-      { "value": "gathering_info", "text": "Just gathering information at this stage." }
-    ]
-  }
-],
+    {
+      "id": "q_auto_1750445840887_0",
+      "questionText": "What's your current situation?",
+      "options": [
+        {
+          "value": "I own my home",
+          "text": "I own my home"
+        },
+        {
+          "value": "I rent",
+          "text": "I rent"
+        },
+        {
+          "value": "Live with family/friends",
+          "text": "Live with family/friends"
+        },
+        {
+          "value": "Between homes",
+          "text": "Between homes"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_1",
+      "questionText": "What are you looking to do?",
+      "options": [
+        {
+          "value": "Buy a home",
+          "text": "Buy a home"
+        },
+        {
+          "value": "Sell and buy",
+          "text": "Sell and buy"
+        },
+        {
+          "value": "Rent a place",
+          "text": "Rent a place"
+        },
+        {
+          "value": "Invest in property",
+          "text": "Invest in property"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445840887_2",
+      "questionText": "When are you planning to move?",
+      "options": [
+        {
+          "value": "ASAP",
+          "text": "ASAP"
+        },
+        {
+          "value": "3-6 months",
+          "text": "3-6 months"
+        },
+        {
+          "value": "6-12 months",
+          "text": "6-12 months"
+        },
+        {
+          "value": "12+ months",
+          "text": "12+ months"
+        }
+      ]
+    },
+    {
+      "id": "agent_status",
+      "questionText": "Are you currently exploring homes with a real estate agent?",
+      "options": [
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
+      ]
+    }
+  ],
   "deploymentInfo": {
     "repoId": "1251600875",
     "repoName": "Open-House-286",
