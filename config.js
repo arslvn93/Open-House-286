@@ -156,7 +156,7 @@ const config = {
     "repoName": "Open-House-286",
     "crmLeadParsingEmail": "",
     "tag": "Open House 10 Oakview Place",
-    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/723v7Nh8JC60wCn3aRmV",
-    "sgApiKey": ""
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/XfP1sfPIdHajBsP1D4Jo/webhook-trigger/jpCbbP9ioS3BiCKqxKfj",
+    "sgApiKey": "api_95a5cdcb07563366223de04d123994f9"
   }
 };
