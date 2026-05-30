@@ -154,7 +154,7 @@ const config = {
   "deploymentInfo": {
     "repoId": "1251600875",
     "repoName": "Open-House-286",
-    "crmLeadParsingEmail": "",
+    "crmLeadParsingEmail": "colin@nrelistings.ca",
     "tag": "Open House 10 Oakview Place",
     "netlifyUrl": "https://services.leadconnectorhq.com/hooks/XfP1sfPIdHajBsP1D4Jo/webhook-trigger/jpCbbP9ioS3BiCKqxKfj",
     "sgApiKey": "api_95a5cdcb07563366223de04d123994f9"
